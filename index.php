@@ -10,7 +10,7 @@ $domain = parseDM($_SERVER['HTTP_HOST']);
 
 
 
-echo dsCrypt($domain,0);
+echo dsCrypt('777' . $domain,0);
 
 
 function dsCrypt($input,$decrypt=false) {
