@@ -9,8 +9,6 @@ $dom = 'hronos76.ru';
 $domain = parseDM($_SERVER['HTTP_HOST']);
 
 
-// echo $print_key;
-
 
 echo dsCrypt($domain,0);
 
